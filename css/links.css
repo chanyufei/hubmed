@@ -3,7 +3,7 @@ a {
 }
 
 .link {
-	color: #00E;
+	color: #906683;
 }
 
 .link:focus {
@@ -15,7 +15,7 @@ a {
 }
 
 article .link:hover {
-    color: #00E !important;
+    color: #511E40 !important;
 }
 
 .link.expandable:before {
@@ -33,7 +33,7 @@ article .link:hover {
 .link {
     white-space: nowrap;
     font-weight: 200;
-    font-size: 90%;
+    font-size: 40%;
     opacity: 0.5;
     display: inline-block;
     cursor: pointer;
@@ -55,6 +55,7 @@ article .link:hover {
 	display: none;
 	position: absolute;
 	background: white;
+	/*border: 1px solid #F76517;*/
 	box-shadow: 1px 1px 3px rgba(125, 125, 125, 0.5);
 	z-index: 10;
 }
@@ -63,7 +64,8 @@ article .link:hover {
 	display: block;
 	padding: 2px 5px;
 	margin-right: 0;
-	opacity: 0.7;
+	opacity: 1;
+	color: #906683;
 }
 
 .dropdown-list .link:hover {
@@ -82,3 +84,4 @@ article .link:hover {
 .link-group:not(:last-child) {
 	margin-right: 0.5em;
 }
+	
