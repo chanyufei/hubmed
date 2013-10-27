@@ -37,7 +37,7 @@ article [property=url]:visited {
 article [property=datePublished] {
     display: inline-block;
     white-space: nowrap;
-    color: #999;
+    color: #B3AFB2;
 }
 
 article [property=datePublished] .day {
@@ -45,7 +45,8 @@ article [property=datePublished] .day {
 }
 
 article [property=creators] {
-    color: #777;
+    color: #AEA9AC; 
+    font-size: 70%;
 }
 
 article [property=creator] {
@@ -57,7 +58,8 @@ article [property=creator] a {
 }
 
 article [property=citation] {
-    color: #270;
+    color: #C18FB0;
+    font-size: 70%;
 }
 
 article [property=journal]  {
@@ -75,7 +77,7 @@ article .has-extra:hover .extra {
 article [property=abstract] {
     font-weight: normal;
     padding: 0 10px;
-    color: #444;
+    color: #554C81;
     font-size: 90%;
 }
 
@@ -84,9 +86,10 @@ article [property=abstract]:not(:last-of-type) {
 }
 
 article [property=abstract] > span {
-    display: block;
-    margin-left: 1em;
+    /*display: block;
+    margin-left: 1em;*/
     text-indent: -1em;
+    text-align: justify;
 }
 
 article section {
@@ -122,7 +125,7 @@ article:not(.expanded) .show-when-expanded {
 article .et-al {
     font-style: italic;
     white-space: nowrap;
-    color: #aaa;
+    color: #C6C2C5;
 }
 
 article .no-abstract {
@@ -133,12 +136,12 @@ article .no-abstract {
 article .read {
     padding-right: 10px;
     display: block;
-    color: #ddd;
+    color: #9B728D;
     text-align: right;
 }
 
 article .read:hover {
-    color: #ccc;
+    color: #EB0FA2;
 }
 
 article .read:after {
