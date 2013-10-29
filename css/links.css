@@ -33,7 +33,7 @@ article .link:hover {
 .link {
     white-space: nowrap;
     font-weight: 200;
-    font-size: 40%;
+    font-size: 80%;
     opacity: 0.5;
     display: inline-block;
     cursor: pointer;
@@ -84,4 +84,3 @@ article .link:hover {
 .link-group:not(:last-child) {
 	margin-right: 0.5em;
 }
-	
